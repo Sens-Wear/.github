@@ -1,129 +1,76 @@
-# SensWear  
-### Open-Source Modular Wearable Platform
+<div align="center">
 
-SensWear is an open-source, research-grade wearable electronics platform designed for physiological sensing, embedded AI experimentation, and rapid hardware prototyping.
+# SensWear
 
-We build modular hardware, low-power firmware, and scalable software infrastructure that enables researchers, developers, and startups to design next-generation wearable systems — from smart rings to wristbands and experimental sensing platforms.
+### An open, modular, and AI-ready wearable research platform
 
----
+[Website](https://sens-wear.com) ·
+[Repositories](https://github.com/orgs/Sens-Wear/repositories) ·
+[Contact](mailto:contact@sens-wear.com)
 
-## 🌍 Our Vision
+[![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/platform-open%20wearable-1769aa.svg)](https://sens-wear.com)
 
-To build a fully open, European full-stack wearable ecosystem —  
-from PCB design and firmware to mobile applications, cloud infrastructure, and edge AI.
+<img src="./assets/Boards.png" alt="SensWear main board, modular daughter boards, and debug board" width="100%">
 
-We believe wearable technology should be:
-- Transparent  
-- Reproducible  
-- Modular  
-- Energy-efficient  
-- Research-friendly  
+</div>
 
----
+## Open wearable infrastructure for research and prototyping
 
-## 🧱 Platform Architecture
+SensWear is a research-grade wearable electronics platform for physiological sensing, embedded AI, multimodal data collection, and rapid hardware experimentation. Its modular architecture separates the wearable form factor from sensing, actuation, firmware, and data interfaces, allowing the same technology stack to support smart rings, wristbands, patches, and custom research devices.
 
-SensWear follows a layered, modular design:
+The platform combines a compact flexible main board, interchangeable daughter boards, low-power Zephyr-based firmware, Bluetooth connectivity, and software tools for acquiring and working with raw, time-synchronized sensor data. Researchers can reconfigure modalities such as PPG, motion, temperature, capacitive touch, haptics, and visual feedback without rebuilding the complete system.
 
-### 1️⃣ Hardware Layer
-- Mainboard with Nordic nRF54 series MCU
-- Power management (charger, fuel gauge, regulation)
-- BLE connectivity
-- Flexible + rigid PCB variants
-- Modular sensor daughter boards
+SensWear is intended to make wearable research more transparent, reproducible, and extensible—from the PCB and embedded software to mobile applications and analysis pipelines.
 
-### 2️⃣ Sensor Layer
-- PPG (optical heart rate)
-- IMU (motion + sensor fusion)
-- Temperature
-- Capacitive touch
-- Haptic feedback
-- Expandable via I2C / SPI
+## The SensWear stack
 
-### 3️⃣ Firmware Layer
-- Zephyr RTOS
-- Custom device-tree overlays
-- Low-power drivers
-- BLE GATT services
-- TinyML-ready architecture
+| Repository | Purpose |
+| --- | --- |
+| [Hardware](https://github.com/Sens-Wear/hardware-v1) | Schematics, PCB layouts, manufacturing resources, mechanical references, and designs for the flexible main board, sensor daughter boards, and debug hardware. |
+| [MobileApp](https://github.com/Sens-Wear/MobileApp) | The companion mobile application for discovering SensWear devices, configuring sessions, communicating over Bluetooth, and viewing or recording sensor data. |
+| [Firmware](https://github.com/Sens-Wear/firmware) | Zephyr-based embedded software, board definitions, sensor drivers, Bluetooth services, synchronized acquisition, local logging, and low-power device operation. |
+| [Python SDK](https://github.com/Sens-Wear/python-sdk) | Python tools for connecting to the platform, collecting and decoding data, automating experiments, and integrating SensWear with scientific analysis and machine-learning workflows. |
+| [TypeScript SDK](https://github.com/Sens-Wear/typescript-sdk) | TypeScript interfaces for building web, desktop, and Node.js applications that communicate with SensWear devices and consume their data streams. |
 
-### 4️⃣ Software Layer
-- Mobile app (BLE communication)
-- Data logging and visualization
-- Cloud backend (planned)
-- AI pipelines for multi-modal sensing
+Together, these repositories provide an inspectable path from physical sensing to embedded processing, user-facing applications, and research analysis.
 
-### 5️⃣ Intelligence Layer
-- Sensor-level preprocessing  
-- MCU-level embedded ML  
-- Mobile/cloud-level advanced AI  
+## Research and citation
 
----
+SensWear is being developed as reusable infrastructure for wearable computing, physiological sensing, edge AI, and human-centered research. If the platform supports your published work, please cite the platform paper. Until the final publication metadata is available, use the following citation for the manuscript submitted to UbiComp/ISWC 2026:
 
-## 🔬 What You Can Build With SensWear
+```bibtex
+@unpublished{salami2026senswear,
+  author = {Dariush Salami and Behzad Salami and Huseyin Yigitler},
+  title  = {{SensWear}: An Open, Modular, and {AI}-Ready Wearable Platform},
+  note   = {Manuscript submitted to UbiComp/ISWC 2026},
+  year   = {2026},
+  url    = {https://sens-wear.com}
+}
+```
 
-- Research-grade health monitoring prototypes
-- Fall detection and activity recognition systems
-- Multi-modal sensor fusion experiments
-- Edge AI benchmarking on ultra-low-power MCUs
-- Open-source wearable startups
-- Custom wearable form factors (ring, wristband, patch)
+## Contributing
 
-SensWear is a platform — not a fixed product.
+SensWear is an open-source project, and contributions are welcome across hardware, firmware, mobile development, SDKs, documentation, testing, sensor integration, power optimization, and embedded machine learning. Start by opening an issue in the relevant repository to discuss a proposal, or submit a focused pull request with a clear description and validation notes.
 
----
+By contributing improvements, examples, integrations, and experimental results, you help make open wearable research easier to reproduce and extend across laboratories and products.
 
-## 📂 Repositories
+## Partnerships and research collaboration
 
-Our organization includes:
+We welcome collaboration with universities, research groups, companies, and other organizations working in wearable computing, digital health, sensing, embedded intelligence, and related fields. For joint research, platform evaluation, teaching, integration, or partnership opportunities, contact [contact@sens-wear.com](mailto:contact@sens-wear.com).
 
-- Hardware design files (schematics, PCB layouts)
-- Firmware (Zephyr-based)
-- Mobile application
+Learn more about the platform at [sens-wear.com](https://sens-wear.com).
 
-Explore the pinned repositories to get started.
+## License
 
----
+SensWear is released under the permissive [MIT License](https://opensource.org/licenses/MIT), enabling use, modification, distribution, and commercial development subject to the license terms. Refer to the `LICENSE` file in each repository for the applicable copyright notice.
 
-## 🤝 Who Is This For?
+## Research-use notice
 
-- Embedded engineers  
-- Hardware designers  
-- AI/ML researchers  
-- Wearable startups  
-- Universities and research labs  
-- Open-source contributors  
+SensWear is a research and prototyping platform. It is not a medically certified device and must not be used for clinical diagnosis or treatment without the validation, approvals, and controls required for the intended use.
 
----
+<div align="center">
 
-## 🛠 Contributing
+**Open hardware. Embedded intelligence. Modular by design.**
 
-We welcome:
-
-- Hardware improvements  
-- Driver development  
-- Low-power optimizations  
-- Embedded AI contributions  
-- Documentation enhancements  
-- New sensor modules  
-
-Please open issues or pull requests to contribute.
-
----
-
-## ⚠️ Disclaimer
-
-SensWear is a research and prototyping platform.  
-It is **not a medical-certified device** and should not be used for clinical diagnosis.
-
----
-
-## 📬 Get Involved
-
-If you are building something on top of SensWear, we would love to hear from you.
-
-Open hardware accelerates innovation when it is shared.
-
----
-
-### Open Hardware. Embedded Intelligence. Modular by Design.
+</div>
