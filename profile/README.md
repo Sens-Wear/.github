@@ -27,8 +27,8 @@ SensWear is intended to make wearable research more transparent, reproducible, a
 
 | Repository | Purpose |
 | --- | --- |
-| [Hardware](https://github.com/Sens-Wear/hardware-v1) | Schematics, PCB layouts, manufacturing resources, mechanical references, and designs for the flexible main board, sensor daughter boards, and debug hardware. |
-| [MobileApp](https://github.com/Sens-Wear/MobileApp) | The companion mobile application for discovering SensWear devices, configuring sessions, communicating over Bluetooth, and viewing or recording sensor data. |
+| [Hardware](https://github.com/Sens-Wear/hardware) | Schematics, PCB layouts, manufacturing resources, mechanical references, and designs for the flexible main board, sensor daughter boards, and debug hardware. |
+| [MobileApp](https://github.com/Sens-Wear/mobile-app) | The companion mobile application for discovering SensWear devices, configuring sessions, communicating over Bluetooth, and viewing or recording sensor data. |
 | [Firmware](https://github.com/Sens-Wear/firmware) | Zephyr-based embedded software, board definitions, sensor drivers, Bluetooth services, synchronized acquisition, local logging, and low-power device operation. |
 | [Python SDK](https://github.com/Sens-Wear/python-sdk) | Python tools for connecting to the platform, collecting and decoding data, automating experiments, and integrating SensWear with scientific analysis and machine-learning workflows. |
 | [TypeScript SDK](https://github.com/Sens-Wear/typescript-sdk) | TypeScript interfaces for building web, desktop, and Node.js applications that communicate with SensWear devices and consume their data streams. |
