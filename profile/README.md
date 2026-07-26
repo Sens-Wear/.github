@@ -43,7 +43,7 @@ SensWear is being developed as reusable infrastructure for wearable computing, p
 @unpublished{salami2026senswear,
   author = {Dariush Salami and Behzad Salami and Huseyin Yigitler},
   title  = {{SensWear}: An Open, Modular, and {AI}-Ready Wearable Platform},
-  note   = {Manuscript submitted to UbiComp/ISWC 2026},
+  note   = {Manuscript submitted to IEEE Sensors 2026},
   year   = {2026},
   url    = {https://sens-wear.com}
 }
