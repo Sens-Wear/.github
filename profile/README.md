@@ -2,6 +2,12 @@
 
 # SensWear
 
+**Follow SensWear on Crowd Supply** to receive campaign updates and be notified when we launch.
+
+<a href="https://www.crowdsupply.com/sensera-technologies/senswear-wearable-dev-kit">
+  <img src="https://www.crowdsupply.com/_marvin/images/crowd-supply-logo-dark.svg" alt="Follow SensWear on Crowd Supply" width="180">
+</a>
+
 ### An open, modular, and AI-ready wearable research platform
 
 [Website](https://sens-wear.com) ·
