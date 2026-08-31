@@ -17,7 +17,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-open%20wearable-1769aa.svg)](https://sens-wear.com)
 
-<img src="./assets/Boards.png" alt="SensWear main board, modular daughter boards, and debug board" width="100%">
+<img src="./assets/SensWearExplosiveRender.jpg" alt="SensWear main board, modular daughter boards, and debug board" width="100%">
 
 </div>
 
