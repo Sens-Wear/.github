@@ -41,20 +41,6 @@ SensWear is intended to make wearable research more transparent, reproducible, a
 
 Together, these repositories provide an inspectable path from physical sensing to embedded processing, user-facing applications, and research analysis.
 
-## Research and citation
-
-SensWear is being developed as reusable infrastructure for wearable computing, physiological sensing, edge AI, and human-centered research. If the platform supports your published work, please cite the platform paper. Until the final publication metadata is available, use the following citation for the manuscript submitted to UbiComp/ISWC 2026:
-
-```bibtex
-@unpublished{salami2026senswear,
-  author = {},
-  title  = {{SensWear}: An Open, Modular, and {AI}-Ready Wearable Platform},
-  note   = {Manuscript submitted to IEEE Sensors 2026},
-  year   = {2026},
-  url    = {https://sens-wear.com}
-}
-```
-
 ## Contributing
 
 SensWear is an open-source project, and contributions are welcome across hardware, firmware, mobile development, SDKs, documentation, testing, sensor integration, power optimization, and embedded machine learning. Start by opening an issue in the relevant repository to discuss a proposal, or submit a focused pull request with a clear description and validation notes.
