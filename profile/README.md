@@ -4,7 +4,7 @@
 
 **Follow SensWear on Crowd Supply** to receive campaign updates and be notified when we launch.
 
-<a href="https://www.crowdsupply.com/sensera-technologies/senswear-wearable-dev-kit">
+<a href="https://www.crowdsupply.com/sensera-technologies/senswear-wearable-dev-kit" target="_blank">
   <img src="./assets/crowd-supply-logo-dark.svg" alt="Follow SensWear on Crowd Supply" width="180">
 </a>
 
