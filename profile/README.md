@@ -55,6 +55,28 @@ We welcome collaboration with universities, research groups, companies, and othe
 
 Learn more about the platform at [sens-wear.com](https://sens-wear.com).
 
+## Citing SensWear
+
+If your research uses SensWear hardware, firmware, software, or data collected with the platform, please cite our [platform paper](https://arxiv.org/abs/2609.35777) when you publish.
+
+<details>
+<summary>BibTeX citation</summary>
+
+```bibtex
+@misc{salami2026senswear,
+  author        = {Salami, Dariush and Salami, Behzad and Yigitler, Huseyin},
+  title         = {{SensWear}: An Open, Modular, and {AI}-Ready Wearable Platform},
+  year          = {2026},
+  eprint        = {2609.35777},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.HC},
+  url           = {https://arxiv.org/abs/2609.35777},
+  note          = {Project repositories: \url{https://github.com/Sens-Wear}}
+}
+```
+
+</details>
+
 ## License
 
 SensWear is released under the permissive [MIT License](https://opensource.org/licenses/MIT), enabling use, modification, distribution, and commercial development subject to the license terms. Refer to the `LICENSE` file in each repository for the applicable copyright notice.
