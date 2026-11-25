@@ -59,8 +59,6 @@ Learn more about the platform at [sens-wear.com](https://sens-wear.com).
 
 If your research uses SensWear hardware, firmware, software, or data collected with the platform, please cite our [platform paper](https://arxiv.org/abs/2609.35777) when you publish.
 
-<summary>BibTeX citation</summary>
-
 ```bibtex
 @misc{salami2026senswear,
   author        = {Salami, Dariush and Salami, Behzad and Yigitler, Huseyin},
